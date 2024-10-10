@@ -1,2 +1,2 @@
 # CEN_Tools
-Manual scripts for analysis of T2T genome.
+Manual scripts for centromere analysis of T2T genome. 
