@@ -1,0 +1,14 @@
+strict digraph "" {
+	graph [label=Chr06];
+	node [label="\N"];
+	F	[fillcolor="#ceff1d",
+		label="F\n[366]",
+		style=filled];
+	G	[fillcolor="#ceff1d",
+		label="G\n[367]",
+		style=filled];
+	F -> G	[label=363,
+		penwidth=3];
+	G -> F	[label=364,
+		penwidth=3];
+}

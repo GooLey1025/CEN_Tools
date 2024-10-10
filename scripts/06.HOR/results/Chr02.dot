@@ -1,0 +1,36 @@
+digraph "" {
+	graph [label=Chr02];
+	node [label="\N"];
+	G	[fillcolor="#ffb300",
+		label="G\n[52]",
+		style=filled];
+	F	[fillcolor="#ffb300",
+		label="F\n[36]",
+		style=filled];
+	G -> F	[label=9,
+		penwidth=1];
+	D	[fillcolor="#e0ffff",
+		label="D\n[4674]",
+		style=filled];
+	G -> D	[label=42,
+		penwidth=1];
+	F -> G	[label=13,
+		penwidth=1];
+	F -> D	[label=21,
+		penwidth=1];
+	D -> G	[label=36,
+		penwidth=1];
+	D -> F	[label=26,
+		penwidth=1];
+	D -> D	[label=18,
+		penwidth=1];
+	E	[fillcolor="#e0ffff",
+		label="E\n[4614]",
+		style=filled];
+	D -> E	[label=4593,
+		penwidth=7];
+	E -> D	[label=4592,
+		penwidth=7];
+	E -> E	[label=19,
+		penwidth=1];
+}
