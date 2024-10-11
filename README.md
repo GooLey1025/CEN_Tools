@@ -8,6 +8,6 @@ Scripts for centromere analysis of T2T genome.
 - DeepTE:https://github.com/LiLabAtVT/DeepTE
   
 ## scripts
-   manuscript for analysis.
+   manuscript for analysis, including monomer, subfamily phylogenetic, LTR, HOR-SFs, tracker visualization ...
   
   
