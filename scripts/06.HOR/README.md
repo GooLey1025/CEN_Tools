@@ -20,7 +20,9 @@ This script using De Bruijn graph visualize HOR-SFs(High order repeat of sub fam
 
 -fi -pos : input file can be read in data/ . This file can be generated in 06.HOR.ipynb(06.HOR.r)
 ## Used code :
- This script includes some code from HORmon.(https://github.com/ablab/HORmon)
+ This script includes some code from HORmon(https://github.com/ablab/HORmon) and HORdetection for Rice(https://github.com/dongyawu/CenTools/tree/main/HOR)
 
 - BuildMonomerGraph & drawGraph: build monomer graph and visualization
+- genAllCycles & genCycleInner ：get initial cycles
+- HORdetect_rice.py
 
